@@ -7,3 +7,4 @@
     - role: geerlingguy.apache
     - role: geerlingguy.php
     - role: geerlingguy.mysql
+    - role: local.adminer
