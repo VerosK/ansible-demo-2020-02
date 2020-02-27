@@ -1,7 +1,9 @@
+#!/usr/bin/env ansible-playbook 
+ 
 - name: Setup LAMP stack
   hosts: all
 
   roles:
-    - role: apache
-    - role: php
-    - role: mysql
+    - role: geerlingguy.apache
+    - role: geerlingguy.php
+    - role: geerlingguy.mysql
