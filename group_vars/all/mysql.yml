@@ -1,0 +1,10 @@
+# group_vars/all/mysql.yml
+
+mysql_databases:
+  - name: demo
+
+mysql_users:
+  - name: demo
+    host: "%"
+    password: nbusr123
+    priv: "demo.*:ALL"
